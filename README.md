@@ -1,3 +1,5 @@
+
+## Foodapp
 Food App
 Description
 This is a food ordering application that allows users to browse restaurants, view menus, place orders, and track their order status.
@@ -57,61 +59,6 @@ GET /api/orders/:id: Get an order's details
 POST /api/auth/register: Register a new user
 
 POST /api/auth/login: Log in a user
-
-[Add more endpoints as necessary]
-
-Database Schema
-Users:
-
-id
-
-name
-
-email
-
-password
-
-Restaurants:
-
-id
-
-name
-
-address
-
-Menu Items:
-
-id
-
-restaurant_id
-
-name
-
-description
-
-price
-
-Orders:
-
-id
-
-user_id
-
-total_price
-
-status
-
-created_at
-
-Order Items:
-
-id
-
-order_id
-
-menu_item_id
-
-quantity
 
 Contributing
 Fork the repository.
